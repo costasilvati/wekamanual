@@ -1,0 +1,71 @@
+/* importando fonte  */
+@font-face {
+	font-family: "Lato";
+	src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 400;
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+	font-family: "Roboto Slab";
+	src: url("https://fonts.gstatic.com/s/robotoslab/v11/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rj.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 700;
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  } 
+  /* Wallpaper do fundo */
+#fundo{
+	background-image: url("https://images.wallpaperscraft.com/image/clouds_sunset_sky_119785_3840x2400.jpg");
+}
+/* Formataçã do texto */
+#corpo{
+	background-color: white;
+	font-family: Arial,sans-serif;
+	padding: 1.618em 3.236em;
+	height: 100%;
+	max-width: 800px;
+	margin: auto;
+	border: #404040;
+	border-style: solid;
+	border-radius: 2%;
+	box-shadow: 10px 10px 5px rgb(22, 18, 18);
+	
+}
+/* Título do html */
+#titu{
+	color: #761110;
+	background: white;
+	text-align: center;
+	padding: 10px;
+   
+}
+/* Subtitulos */
+h1, h2, h3{
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 20px;
+    font-family: "Roboto Slab",Arial,sans-serif;
+}
+/* Formatação do hr */
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid #e1e4e5;
+    margin: 24px 0;
+    padding: 0;
+}
+/* Formatação texto */
+p1, p2, p3{
+	font-family: "Lato",Arial,sans-serif;
+	font-weight: normal;
+	color: black;
+	line-height: 24px;
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
